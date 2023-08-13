@@ -189,7 +189,7 @@ Author URL: http://w3layouts.com
         <div class="container py-md-5 py-4">
             <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
                 <p class="text-uppercase">Best Courses</p>
-                <h3 class="title-style">Find The Right Course For You</h3>
+                <h3 class="title-style">Find The Right Course For Your Kid And Yourself</h3>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
@@ -197,29 +197,24 @@ Author URL: http://w3layouts.com
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c1.jpg" alt="" class="img-fluid" />
                             <div class="meta-list">
-                                <a href="courses.html">Art & Design</a>
+                                <a href="courses.html">Robotics</a>
                             </div>
                         </div>
                         <div class="content-main-top">
                             <div class="content-top mb-4 mt-3">
                                 <ul class="list-unstyled d-flex align-items-center justify-content-between">
-                                    <li> <i class="fas fa-book-open"></i> 43 Lesson</li>
+                                    <li> <i class="fas fa-book-open"></i> 5 Lesson</li>
                                     <li> <i class="fas fa-star"></i> 4.5</li>
                                 </ul>
                             </div>
-                            <h4><a href="courses.html">Educational Programs</a></h4>
+                            <h4><a href="courses.html">Best Robotics Programs</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-4 pt-4">
                                 <h6>$42.00</h6>
-                                <a class="trigger_popup_fricc">Know more</a>
-
-                                <div class="hover_bkgr_fricc">
-                                    <span class="helper"></span>
-                                    <div>
-                                        <div class="popupCloseButton">&times;</div>
-                                        <p>Add any HTML content<br />inside the popup box!</p>
-                                    </div>
-                                </div>
+                                <!--a class="trigger_popup_fricc">Know more</a-->
+                                <!-- Button to trigger modal ComputerLiteracy -->
+                                <a class="btn btn-style-primary" id="mbtn">Know Details<i
+                                        class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -229,47 +224,37 @@ Author URL: http://w3layouts.com
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c2.jpg" alt="" class="img-fluid" />
                             <div class="meta-list">
-                                <a href="courses.html" class="sec-2">Meditation</a>
+                                <a href="courses.html" class="sec-2">Computer Literacy</a>
                             </div>
                         </div>
                         <div class="content-main-top">
                             <div class="content-top mb-4 mt-3">
                                 <ul class="list-unstyled d-flex align-items-center justify-content-between">
-                                    <li> <i class="fas fa-book-open"></i> 72 Lesson</li>
+                                    <li> <i class="fas fa-book-open"></i> 12 Lesson</li>
                                     <li> <i class="fas fa-star"></i> 4.3</li>
                                 </ul>
                             </div>
-                            <h4><a href="courses.html">Best Meditation Classes</a></h4>
+                            <h4><a href="courses.html">Best Computer Literacy Classes</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-4 pt-4">
                                 <h6>$36.00</h6>
-                                <a class="btn btn-style-primary" href="courses.html">Know Details<i
+                                <a class="btn btn-style-primary" id="mbtn">Know Details<i
                                         class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
-                    <div class="coursecard-single">
-                        <div class="grids5-info position-relative">
-                            <img src="assets/images/c3.jpg" alt="" class="img-fluid" />
-                            <div class="meta-list">
-                                <a href="courses.html" class="sec-3">Games</a>
-                            </div>
-                        </div>
-                        <div class="content-main-top">
-                            <div class="content-top mb-4 mt-3">
-                                <ul class="list-unstyled d-flex align-items-center justify-content-between">
-                                    <li> <i class="fas fa-book-open"></i> 14 Lesson</li>
-                                    <li> <i class="fas fa-star"></i> 4.2</li>
-                                </ul>
-                            </div>
-                            <h4><a href="courses.html">Games Program in a Week</a></h4>
-                            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <div class="top-content-border d-flex align-items-center justify-content-between mt-4 pt-4">
-                                <h6>$30.00</h6>
-                                <a class="btn btn-style-primary" href="courses.html">Know Details<i
-                                        class="fas fa-arrow-right"></i></a>
+                                <div class="modalShow">
+                                    <div class="modal-content">
+                                        <span class="close-button">×</span>
+                                                    <div class="modal-header">
+                                            <h5 class="modal-title">Modal title</h5>
+                                            <button type="button" class="close">
+                                                <span aria-hidden="true">x</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Woohoo, you're reading this text in a modal!</p>
+                                            <p>Modal body content goes here...</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -592,6 +577,26 @@ Author URL: http://w3layouts.com
     </section>
     <!-- //call block -->
 
+    <!-- The Modal -->
+    <div id="modalDialog" class="modal">
+        <div class="modal-content animate-top">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Woohoo, you're reading this text in a modal!</p>
+                <p>Modal body content goes here...</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary close">Close</button>
+                <!--button type="button" class="btn btn-primary">Save changes</button-->
+            </div>
+        </div>
+    </div>
+
     <!-- footer block -->
     <footer class="w3l-footer-29-main">
         <div class="footer-29 pt-5 pb-4">
@@ -639,7 +644,7 @@ Author URL: http://w3layouts.com
                     by <a href="https://w3layouts.com/" target="_blank">W3Layouts</a></p>
                 <!-- //copyright -->
             </div>
-        </div>
+        </div>F
     </footer>
     <!-- //footer block -->
 
@@ -648,6 +653,7 @@ Author URL: http://w3layouts.com
     <button onclick="topFunction()" id="movetop" title="Go to top">
         <span class="fas fa-level-up-alt" aria-hidden="true"></span>
     </button>
+
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {
@@ -681,7 +687,7 @@ Author URL: http://w3layouts.com
     <!-- theme switch js (light and dark)-->
     <script src="assets/js/theme-change.js"></script>
     <!-- //theme switch js (light and dark)-->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <!-- MENU-JS -->
     <script>
         $(window).on("scroll", function () {
@@ -725,6 +731,56 @@ Author URL: http://w3layouts.com
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- //bootstrap -->
     <!-- //Js scripts -->
+    <script>
+        // Get the modal
+        var modal = $('#modalDialog');
+
+        // Get the button that opens the modal
+        var btn = $("#mbtn");
+
+        // Get the <span> element that closes the modal
+        var span = $(".close");
+
+        $(document).ready(function(){
+            // When the user clicks the button, open the modal 
+            btn.on('click', function() {
+                modal.show();
+            });
+            
+            // When the user clicks on <span> (x), close the modal
+            span.on('click', function() {
+                modal.fadeOut();
+            });
+        });
+
+        // When the user clicks anywhere outside of the modal, close it
+        $('body').bind('click', function(e){
+            if($(e.target).hasClass("modal")){
+                modal.fadeOut();
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        const modalShow = document.querySelector(".modalShow");
+        const trigger = document.querySelector(".trigger");
+        const closeButton = document.querySelector(".close-button");
+
+        function toggleModal() {
+            modalShow.classList.toggle("show-modal");
+        }
+
+        function windowOnClick(event) {
+            if (event.target === modalShow) {
+                toggleModal();
+            }
+        }
+
+        trigger.addEventListener("click", toggleModal);
+        closeButton.addEventListener("click", toggleModal);
+        window.addEventListener("click", windowOnClick);
+    </script>
+    
+
 </body>
 
 </html>
