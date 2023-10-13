@@ -11933,10 +11933,12 @@ li {
 
 .radius-image {
   border-radius: var(--border-radius);
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.2)
 }
 
 .radius-image-full {
   border-radius: var(--border-radius-full);
+
 }
 
 /* container */
@@ -18919,7 +18921,7 @@ header.nav-fixed {
   background-color: var(--bg-color);
   height: 80px;
   border-bottom: none;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
   z-index: 10 !important;
   /* for z-index:10 to display gallery popup */
 }
@@ -19639,7 +19641,7 @@ p.banner-sub {
   right: -60px;
   bottom: -100px;
   padding: 35px 40px 38px;
-  box-shadow: var(--box-shadow);
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.2);
   border-radius: var(--border-radius);
 }
 
