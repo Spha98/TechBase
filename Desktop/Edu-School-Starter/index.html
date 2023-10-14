@@ -36,7 +36,7 @@ Author URL: http://w3layouts.com
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="courses.html">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
@@ -220,7 +220,7 @@ Author URL: http://w3layouts.com
                                 <h6>$42.00</h6>
                                 <!--a class="trigger_popup_fricc">Know more</a-->
                                 <!-- Button to trigger modal ComputerLiteracy -->
-                                <a class="btn btn-style-primary" id="mbtn">Know Details<i
+                                <a class="btn btn-style-primary" id="rbtn">Know Details<i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -245,12 +245,13 @@ Author URL: http://w3layouts.com
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-4 pt-4">
                                 <h6>$36.00</h6>
-                                <a class="btn btn-style-primary" id="mbtn">Know Details<i
-                                        class="fas fa-arrow-right"></i></a>
+                                <!--a class="btn btn-style-primary trigger">Know Details<i
+                                        class="fas fa-arrow-right"></i></a-->
+                                <a class="btn btn-style-primary" id="cbtn">Know Details<i
+                                    class="fas fa-arrow-right"></i></a>
                                 <div class="modalShow">
                                     <div class="modal-content">
-                                        <span class="close-button">×</span>
-                                                    <div class="modal-header">
+                                        <div class="modal-header">
                                             <h5 class="modal-title">Modal title</h5>
                                             <button type="button" class="close">
                                                 <span aria-hidden="true">x</span>
@@ -259,6 +260,55 @@ Author URL: http://w3layouts.com
                                         <div class="modal-body">
                                             <p>Woohoo, you're reading this text in a modal!</p>
                                             <p>Modal body content goes here...</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary close">Close</button>
+                                            <!--button type="button" class="btn btn-primary">Save changes</button-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+                    <div class="coursecard-single">
+                        <div class="grids5-info position-relative">
+                            <img src="assets/images/c4.jpg"  alt="" class="img-fluid" />
+                            <div class="meta-list">
+                                <a href="courses.html" class="sec-2">Progamming development</a>
+                            </div>
+                        </div>
+                        <div class="content-main-top">
+                            <div class="content-top mb-4 mt-3">
+                                <ul class="list-unstyled d-flex align-items-center justify-content-between">
+                                    <li> <i class="fas fa-book-open"></i> 12 Lesson</li>
+                                    <li> <i class="fas fa-star"></i> 4.3</li>
+                                </ul>
+                            </div>
+                            <h4><a href="courses.html">Best Progamming development Classes</a></h4>
+                            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="top-content-border d-flex align-items-center justify-content-between mt-4 pt-4">
+                                <h6>$36.00</h6>
+                                <!--a class="btn btn-style-primary trigger">Know Details<i
+                                        class="fas fa-arrow-right"></i></a-->
+                                <a class="btn btn-style-primary" id="pbtn">Know Details<i
+                                    class="fas fa-arrow-right"></i></a>
+                                <div class="modalShow">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Modal title</h5>
+                                            <button type="button" class="close">
+                                                <span aria-hidden="true">x</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Woohoo, you're reading this text in a modal!</p>
+                                            <p>Modal body content goes here...</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary close">Close</button>
+                                            <!--button type="button" class="btn btn-primary">Save changes</button-->
                                         </div>
                                     </div>
                                 </div>
@@ -569,18 +619,56 @@ Author URL: http://w3layouts.com
     </section>
     <!-- //call block -->
 
-    <!-- The Modal -->
-    <div id="modalDialog" class="modal">
+     <!-- The Modal -->
+    <div id="roboticsModalDialog" class="modal">
         <div class="modal-content animate-top">
             <div class="modal-header">
-                <h5 class="modal-title">Modal title</h5>
+                <h5 class="modal-title">Robotics Programs</h5>
                 <button type="button" class="close">
                     <span aria-hidden="true">x</span>
                 </button>
             </div>
             <div class="modal-body">
-                <p>Woohoo, you're reading this text in a modal!</p>
-                <p>Modal body content goes here...</p>
+                <p>The program will take place every Saturday however when school closes the program will run from Monday- Saturday until the reopening of schools. The program will run for 3 hours a day session which will be from 9am to 12pm.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary close">Close</button>
+                <!--button type="button" class="btn btn-primary">Save changes</button-->
+            </div>
+        </div>
+    </div>
+
+    <div id="computerModalDialog" class="modal">
+        <div class="modal-content animate-top">
+            <div class="modal-header">
+                <h5 class="modal-title">Computer Literacy</h5>
+                <button type="button" class="close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>The program will take place every Saturday however when school closes the program will run from Monday- Saturday until the reopening of schools. The program will run for 3 hours a day session which will be from 9am to 12pm.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary close">Close</button>
+                <!--button type="button" class="btn btn-primary">Save changes</button-->
+            </div>
+        </div>
+    </div>
+
+    <div id="programmingModalDialog" class="modal">
+        <div class="modal-content animate-top">
+            <div class="modal-header">
+                <h5 class="modal-title">Programming</h5>
+                <button type="button" class="close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>The program will take place every Saturday however when school closes the program will run from Monday- Saturday until the reopening of schools. The program will run for 3 hours a day session which will be from 9am to 12pm.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary close">Close</button>
@@ -721,51 +809,48 @@ Author URL: http://w3layouts.com
     <!-- //Js scripts -->
     <script>
         // Get the modal
-        var modal = $('#modalDialog');
+        var modalRobotics = $('#roboticsModalDialog');
+        var modalComputer = $('#computerModalDialog');
+        var modalProgramming = $('#programmingModalDialog');
 
         // Get the button that opens the modal
-        var btn = $("#mbtn");
+        var rbtn = $("#rbtn");
+        var cbtn = $("#cbtn");
+        var pbtn = $("#pbtn");
 
         // Get the <span> element that closes the modal
         var span = $(".close");
 
         $(document).ready(function(){
             // When the user clicks the button, open the modal 
-            btn.on('click', function() {
-                modal.show();
+            rbtn.on('click', function() {
+                modalRobotics.show();
+            });
+
+            cbtn.on('click', function() {
+                modalComputer.show();
+            });
+
+            pbtn.on('click', function() {
+                modalProgramming.show();
             });
             
             // When the user clicks on <span> (x), close the modal
             span.on('click', function() {
-                modal.fadeOut();
+                modalRobotics.fadeOut();
+                modalComputer.fadeOut();
+                modalProgramming.fadeOut();
             });
         });
 
         // When the user clicks anywhere outside of the modal, close it
         $('body').bind('click', function(e){
             if($(e.target).hasClass("modal")){
-                modal.fadeOut();
+                modalRobotics.fadeOut();
+                modalComputer.fadeOut();
+                modalProgramming.fadeOut();
             }
         });
-    </script>
-    <script type="text/javascript">
-        const modalShow = document.querySelector(".modalShow");
-        const trigger = document.querySelector(".trigger");
-        const closeButton = document.querySelector(".close-button");
-
-        function toggleModal() {
-            modalShow.classList.toggle("show-modal");
-        }
-
-        function windowOnClick(event) {
-            if (event.target === modalShow) {
-                toggleModal();
-            }
-        }
-
-        trigger.addEventListener("click", toggleModal);
-        closeButton.addEventListener("click", toggleModal);
-        window.addEventListener("click", windowOnClick);
     </script>
     
 
