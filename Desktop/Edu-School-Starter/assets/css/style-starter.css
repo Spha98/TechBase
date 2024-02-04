@@ -353,7 +353,7 @@ button:focus:not(:focus-visible) {
 
 input,
 button,
-select,
+/*select,*/
 optgroup,
 textarea {
   margin: 0;
@@ -362,22 +362,22 @@ textarea {
   line-height: inherit;
 }
 
-button,
-select {
+button
+ {
   text-transform: none;
-}
+}/*select*/
 
 [role=button] {
   cursor: pointer;
 }
 
-select {
+/*select {
   word-wrap: normal;
-}
+}*/
 
-select:disabled {
+/*select:disabled {
   opacity: 1;
-}
+}*/
 
 [list]::-webkit-calendar-picker-indicator {
   display: none;
@@ -11881,7 +11881,7 @@ button:hover {
 
 button,
 input,
-select,
+/*select,*/
 label,
 li,
 span {
@@ -19878,12 +19878,12 @@ ul.rating-list li a.review-color {
 }
 
 .w3l-service-1 .content23-grid1 {
-  background: url("../images/bg1.jpg") no-repeat center;
+  background: url("../images/blog3.jpg") no-repeat center;
   background-size: cover;
 }
 
 .w3l-service-1 .content23-grid2 {
-  background: url("../images/bg2.jpg") no-repeat center;
+  background: url("../images/blog1.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -20237,6 +20237,11 @@ p.count-text {
 
 .w3l-index4 .clients-slider li.anim5 {
   -webkit-animation: cycle5 15s linear infinite;
+  animation: cycle5 15s linear infinite;
+}
+
+.w3l-index4 .clients-slider li.anim6 {
+  -webkit-animation: cycle6 15s linear infinite;
   animation: cycle5 15s linear infinite;
 }
 
@@ -21270,4 +21275,154 @@ h4.inner-text-title {
     visibility: visible;
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+#top-bar{
+  left: 0;
+  top: 0;
+  float: left;
+  width:100%;
+  height:40px;
+  background-color: black;
+}
+
+.dropbtn {
+  display: block;
+  float: right;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-c {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    float: left;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 100%;
+    float: left;
+    left: 0;
+}
+
+li a {text-decoration : none; color : #2d2f31;}
+
+
+.modal .modal-content nav {
+/*  width : 300px; */
+  background: white;
+/*  margin : 40px auto; */
+}
+
+nav label span {
+  padding : 5px;
+  width : 498px; 
+  background : var(--primary-color); 
+  color : white;
+  font-size : 1.7em;
+  cursor : pointer;
+  display: block;
+}
+
+nav label span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide .sb {padding : 15px;}
+
+.slide ul ul li {float: left;padding : 5px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 270px;} 
+
+#touch1 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch1:checked + .slide {height: 275px;} 
+
+#touch2 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch2:checked + .slide {height: 275px;} 
+
+#touch3 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch3:checked + .slide {height: 240px;} 
+
+#touch4 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch4:checked + .slide {height: 240px;} 
+
+#touch5 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch5:checked + .slide {height: 220px;} 
+
+#touch6 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch6:checked + .slide {height: 170px;} 
+
+#touch7 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch7:checked + .slide {height: 170px;} 
+
+#touch8 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch8:checked + .slide {height: 300px;} 
+
+#touch9 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch9:checked + .slide {height: 300px;} 
+
+#touch10 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch10:checked + .slide {height: 300px;} 
+
+#touch11 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch11:checked + .slide {height: 300px;} 
+
+#touch12 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch12:checked + .slide {height: 300px;} 
+.dropdown-arrow {
+  height: 0;
+  width: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333;
+  position: relative;
+  top: 45px;
+  left: 350px;
 }
